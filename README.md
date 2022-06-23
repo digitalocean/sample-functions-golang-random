@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains a sample "Random" function written in Go. You can deploy it on DigitalOcean's as a Serverless Function.
+This repository contains a sample "Random" function written in Go. You can deploy it on DigitalOcean's Functions.
 
 **Note: Following these steps may result in charges for the use of DigitalOcean services.**
 
