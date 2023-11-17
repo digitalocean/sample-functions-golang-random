@@ -4,6 +4,8 @@
 
 This repository contains a sample "Random" function written in Go. You can deploy it on DigitalOcean's App Platform as a Serverless Function component or as a standalone Function. Documentation is available at https://docs.digitalocean.com/products/functions.
 
+**Note: Following these steps may result in charges for the use of DigitalOcean services.**
+
 ### Requirements
 
 * You need a DigitalOcean account. If you don't already have one, you can sign up at [https://cloud.digitalocean.com/registrations/new](https://cloud.digitalocean.com/registrations/new).
@@ -11,17 +13,20 @@ This repository contains a sample "Random" function written in Go. You can deplo
 
 ## Deploying the Function
 
-```
-# clone this repo
+Clone this repo:
+
+```shell
 git clone git@github.com:digitalocean/sample-functions-golang-random.git
 ```
 
-```
-# deploy the project, using a remote build so that compiled executable matched runtime environment
+Deploy the project, using a remote build so that compiled executable matches the runtime environment:
+
+```shell
 doctl serverless deploy sample-functions-golang-random --remote-build
 ```
 
-The output from the deploy command will resemble the following.
+The output from the deploy command will resemble the following:
+
 ```
 Deploying 'sample-functions-golang-random'
   to namespace 'fn-...'
