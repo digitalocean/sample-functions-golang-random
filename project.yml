@@ -4,7 +4,7 @@ packages:
   - name: sample
     environment: {}
     parameters: {}
-    actions:
+    functions:
       - name: random
         main: ''
         runtime: 'go:default'
