@@ -3,5 +3,3 @@ packages:
     actions:
       - name: "say-it-sammy"
         runtime: "nodejs:default"
-        environment:
-          API_KEY: ${API_KEY}
