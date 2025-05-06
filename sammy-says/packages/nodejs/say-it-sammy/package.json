@@ -1,0 +1,9 @@
+{
+  "name": "say-it-sammy",
+  "version": "1.0.0",
+  "description": "Say it Sammy Function",
+  "main": "say-it-sammy.js",
+  "dependencies": {
+    "random": "^3.0.6"
+  }
+}

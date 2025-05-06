@@ -1,5 +1,0 @@
-packages:
-  - name: "default"
-    actions:
-      - name: "say-it-sammy"
-        runtime: "nodejs:default"
